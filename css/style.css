@@ -1,0 +1,158 @@
+@font-face {
+	font-family: CrimsonText-Regular;
+	src: url("../fonts/CrimsonText-Regular.ttf");
+}
+@font-face {
+	font-family: Montserrat-Black;
+	src: url("../fonts/Montserrat-Black.ttf");
+}
+@font-face {
+	font-family: Montserrat-Regular;
+	src: url("../fonts/Montserrat-Regular.ttf");
+}
+.body {
+	margin: 0;
+	padding: 0;
+}
+.main-menu {
+	border-bottom: 1px solid #f0f2f7;
+	display: block;
+	font-family: Montserrat-Regular;
+}
+.main-menu__logo {
+	width: 90px;
+	height: 25px;
+	vertical-align: middle;
+	padding-left: 117px;
+}
+.main-menu__list {
+	text-align: center;
+	padding-left: 350px;
+}
+header div {
+	display: inline-block;
+}
+header {
+	height: 150px;
+}
+.tu {
+	text-transform: uppercase;
+}
+ul {
+	display: inline;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+}
+.main-container__position {
+	padding-top: 30px;
+	padding-bottom: 25px;
+}
+.main-menu__li {
+	padding-left: 30px;
+}
+.main-menu__a {
+	color: #000;
+}
+.main-menu__button {
+	padding-left: 37px;
+}
+.button_sign-in {
+	border-radius: 20px;
+	font-size: 11px;
+	display: inline-block;
+	border: 2px solid gray;
+	padding: 10px 20px;
+	background-color: #fff;
+	font-family: Montserrat-Regular;
+}
+.main-menu__cart {
+	padding-left: 340px;
+	position: relative;
+}
+.cart-link {
+	color: #000;
+}
+.cart-quantity {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	background-color: #e3e8f0;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+}
+.second-menu {
+	height: 57px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 45px;
+	padding-top: 20px;
+	font-family: Montserrat-Regular;
+	font-size: 15px;
+}
+.second-menu__li {
+	padding-left: 30px;
+}
+.second-menu__a {
+	color: #b9bed1;
+}
+.second-menu__a:hover {
+	color: #000;
+}
+.support {
+	padding-left: 750px;
+	color: #b9bed1;
+}
+.support:hover {
+	color: #000;
+}
+.search {
+	padding-left: 55px;
+}
+input {
+	outline: none;
+	border: none;
+	font-family: Montserrat-Regular;
+}
+.main {
+	width:100%;
+	position: absolute;
+	height: 500px;
+	background-color: #1c1e23;
+	overflow: hidden;
+}
+.main__info {
+	color:white;
+	padding:100px 100px 100px 225px;
+}
+.main__title {
+	font-size: 42px;
+	margin: 0px;
+	font-family: Montserrat-Black;
+}
+.main__text {
+	padding: 30px 0 40px 0;
+	font-family: CrimsonText-Regular;
+}
+.buy-button {
+	border-radius: 40px;
+	font-size: 11px;
+	display: inline-block;
+	border: none;
+	padding: 17px 50px;
+	background-color: #2754eb;
+	color: #fff;
+	width: 165px;
+	font-family: Montserrat-Regular;
+}
+.iphone-pic__img {
+	position: absolute;
+	left: 60%;
+	top: -10%;
+	overflow: hidden;
+	display: block;
+}
